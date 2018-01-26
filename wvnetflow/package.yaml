@@ -1,0 +1,32 @@
+manifest-version: 1.0
+
+info:
+  name: wvnetflow
+  description: "CDW, Craig Weinhold's, WVNetFlow tool."
+  version: 0.7
+  author-name: CDW, Tim Way
+  author-link: https://github.com/timway
+
+app:
+  apptype: vm
+
+  resources:
+    cpu: 10
+    memory: 1048576
+    vcpu: 1
+
+    disk:
+    - target dev: sda
+      file: wvnetflow_1.qcow2
+
+    interfaces:
+    - target-dev: net1
+      alias: net1
+
+    serial:
+    - serial
+    - console
+
+  startup:
+    runtime: kvm
+    boot-dev: hd

@@ -1,0 +1,3 @@
+SHA1(package.yaml)= f18f9d86889a329f17738851260f5c33612ca042
+SHA1(version.ver)= 2620f9e3bb792dbcd13dae2e60b154ef5685c52d
+SHA1(wvnetflow_1.qcow2)= 84d15a97852870cd27b97b442dece0a57fb4a31e
