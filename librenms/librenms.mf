@@ -1,0 +1,3 @@
+SHA1(package.yaml)= 8129ad14bf3251734493279370a9a387be505b2d
+SHA1(version.ver)= 4945209b9ca10ba3925e93b008532753d08390e9
+SHA1(librenms_1.qcow2)= eab6b7bf6371ee4f08c1bff75442b0d91ff10dbd

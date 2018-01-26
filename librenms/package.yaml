@@ -1,0 +1,32 @@
+manifest-version: 1.0
+
+info:
+  name: librenms
+  description: "A fully featured network monitoring system."
+  version: 0.1
+  author-name: Tim Way
+  author-link: https://github.com/timway
+
+app:
+  apptype: vm
+
+  resources:
+    cpu: 10
+    memory: 2097152
+    vcpu: 1
+
+    disk:
+    - target dev: sda
+      file: librenms_1.qcow2
+
+    interfaces:
+    - target-dev: net1
+      alias: net1
+
+    serial:
+    - serial
+    - console
+
+  startup:
+    runtime: kvm
+    boot-dev: hd
